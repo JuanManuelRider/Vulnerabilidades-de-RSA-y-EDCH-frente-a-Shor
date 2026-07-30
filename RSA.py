@@ -9,13 +9,6 @@ from qiskit_ibm_runtime import (QiskitRuntimeService,SamplerV2 as Sampler)
 # ============================================================
 # CONFIGURACIÓN DE LA CUENTA DE IBM QUANTUM
 # ============================================================
-
-# Esta operación solo debe ejecutarse una vez para guardar
-# las credenciales en el equipo.
-#
-# Por seguridad, no es recomendable incluir el token directamente
-# en la versión del código que se entregue junto con el TFM.
-
 QiskitRuntimeService.save_account(channel="ibm_quantum_platform",token="INTRODUCIR TOKEN",overwrite=True,set_as_default=True)
 
 
