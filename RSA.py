@@ -253,13 +253,6 @@ with open("Resultados.txt", "w", encoding="utf-8") as archivo:
 
 print("\nLos resultados se han guardado en 'Resultados.txt'.")
 
-# ============================================================
-# FACTORIZACIÓN CLÁSICA A PARTIR DEL PERÍODO
-# ============================================================
-
-factor_1, factor_2 = obtener_factores(numero=N,base=a,periodo=r
-)
-
 print("\nPeríodo utilizado:", r)
 print("Factores obtenidos:", factor_1, "y", factor_2)
 print("Comprobación:", factor_1,"*",factor_2,"=",factor_1 * factor_2
